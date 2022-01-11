@@ -2,6 +2,19 @@
 
 The Thaichub2 (thai-chub-chub) Analysis Plugin integrates the Thai word segmentation modules into Elasticsearch.
 
+## How to build thaichub2 plugin
+
+Each Elasticsearch version requires different build of plugin. This page explains you how to.
+
+You need to install Maven before building the plugin. (On MacOS you can use brew to install it)
+
+```brew install maven
+
+Clone ThaiChub2 from Git  
+
+Edit “version” file pom.xml for your Elasticsearch version.
+
+
 ## Installation on Elasticsearch
 
 - Download a release zip from the [release page](https://github.com/tlefsad/elasticsearch-analysis-thaichub2/releases) matching your ES version (Now supports only version 7.6.2).
