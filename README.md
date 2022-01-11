@@ -9,7 +9,7 @@ Each Elasticsearch version requires different build of plugin. This page explain
 You need to install Maven before building the plugin. (On MacOS you can use brew to install it)
 
 ```brew install maven
-
+```
 Clone ThaiChub2 from Git  
 
 Edit “version” file pom.xml for your Elasticsearch version.
